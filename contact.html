@@ -9,18 +9,25 @@
 <body>
     <header>
         <nav>
-            <ul>
+            <div class="logo">
+                <a href="index.html">BotHost</a>
+            </div>
+            <ul class="nav-links">
                 <li><a href="index.html">Главная</a></li>
                 <li><a href="about.html">О нас</a></li>
                 <li><a href="contact.html">Контакты</a></li>
             </ul>
+            <div class="hamburger" id="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
         </nav>
     </header>
 
     <main>
         <section class="contact">
             <h2>Свяжитесь с нами</h2>
-            <p>Если у вас есть вопросы, отправьте нам сообщение:</p>
             <form action="#">
                 <label for="name">Имя:</label>
                 <input type="text" id="name" name="name" required>
@@ -43,3 +50,4 @@
     <script src="js/script.js"></script>
 </body>
 </html>
+
